@@ -40,7 +40,6 @@ var autoupdater = new AutoUpdater({
   devmode: false
  });
 
- //new thing
 
 
  autoupdater.on('check.out-dated', function(v_old, v) {
