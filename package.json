@@ -1,0 +1,33 @@
+{
+  "name": "tewni_",
+  "version": "1.0.0",
+  "auto-updater":{
+    "repo":"/tewni-svg/TewBoot",
+    "branch":"master"
+  },
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "adm-zip": "^0.5.1",
+    "auto-updater": "^1.0.2",
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "env-path": "^1.0.7",
+    "env-paths": "^2.2.0",
+    "express": "^4.17.1",
+    "humanoid-js": "^1.0.1",
+    "ip": "^1.1.5",
+    "node-worker-threads-pool": "^1.4.3",
+    "random-useragent": "^0.5.0",
+    "raw-socket": "^1.7.0",
+    "req-fast": "^0.2.21",
+    "simple-proxy-scraper": "^0.1.2",
+    "util": "^0.12.3"
+  }
+}
