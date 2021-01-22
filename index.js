@@ -40,6 +40,8 @@ var autoupdater = new AutoUpdater({
   devmode: false
  });
 
+ //new thing
+
 
  autoupdater.on('check.out-dated', function(v_old, v) {
   console.warn("Your version is outdated. " + v_old + " of " + v);
