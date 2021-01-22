@@ -1,9 +1,9 @@
 {
   "name": "tewni_",
-  "version": "0.0.9",
-  "auto-updater":{
-    "repo":"/tewni-svg/TewBoot",
-    "branch":"master"
+  "version": "0.0.8",
+  "auto-updater": {
+    "repo": "/tewni-svg/TewBoot",
+    "branch": "master"
   },
   "description": "",
   "main": "index.js",
@@ -15,6 +15,7 @@
   "license": "ISC",
   "dependencies": {
     "adm-zip": "^0.5.1",
+    "auto-git-update": "^2.0.1",
     "auto-updater": "^1.0.2",
     "axios": "^0.21.1",
     "body-parser": "^1.19.0",
@@ -24,6 +25,7 @@
     "humanoid-js": "^1.0.1",
     "ip": "^1.1.5",
     "node-worker-threads-pool": "^1.4.3",
+    "pm2": "^4.5.1",
     "random-useragent": "^0.5.0",
     "raw-socket": "^1.7.0",
     "req-fast": "^0.2.21",
