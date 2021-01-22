@@ -41,7 +41,12 @@ var autoupdater = new AutoUpdater({
  });
 
 
+ autoupdater.on('check.out-dated', function(v_old, v) {
+  console.warn("Your version is outdated. " + v_old + " of " + v);
+  autoupdater.fire('download-update');
+});
 
+ autoupdater.fire('check');
 
 
 async function get_proxies()
