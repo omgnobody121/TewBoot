@@ -31,7 +31,7 @@ let proxies = [];
 
 var AutoUpdater = require('auto-updater');
 var autoupdater = new AutoUpdater({
-  pathToJson: './Package.json',
+  pathToJson: '',
   autoupdate: true,
   checkgit: true,
   jsonhost: 'raw.githubusercontent.com',
