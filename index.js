@@ -196,7 +196,7 @@ async function startRawHttp(url, time)
         return;
       } 
       request({
-        url: "www.google.com",
+        url: url,
         proxy: proxies[randomIntFromInterval(0, proxies.length)]
       }, function(err, resp){
 
