@@ -1,6 +1,6 @@
 {
   "name": "tewni_",
-  "version": "0.0.8",
+  "version": "1.0.0",
   "auto-updater": {
     "repo": "/tewni-svg/TewBoot",
     "branch": "master"
